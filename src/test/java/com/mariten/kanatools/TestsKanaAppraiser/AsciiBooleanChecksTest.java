@@ -257,6 +257,11 @@ public class AsciiBooleanChecksTest extends KanaAppraiserTester
         assertEquals(false, KanaAppraiser.isHankakuAscii ('¡'));
         assertEquals(false, KanaAppraiser.isHankakuNumber('¡'));
         assertEquals(false, KanaAppraiser.isHankakuLetter('¡'));
+        
+        
+        assertEquals(false, KanaAppraiser.isHankakuAscii ('¡'));
+        assertEquals(false, KanaAppraiser.isHankakuNumber('¡'));
+        assertEquals(false, KanaAppraiser.isHankakuLetter('¡'));
     }
     //}}}
 }
