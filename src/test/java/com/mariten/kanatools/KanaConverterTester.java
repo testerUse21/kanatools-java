@@ -222,6 +222,8 @@ public abstract class KanaConverterTester
             .replace('＼', '\\')
             .replace('～', '~');
         }
+        else{
+        }
 
         return php_processed_result;
     }
