@@ -15,6 +15,11 @@ public class KanaAppraiser
     //// Bounds for Katakana
     public static final char HANKAKU_KATAKANA_FIRST = 'ｦ';              // U+FF66
     public static final char HANKAKU_KATAKANA_LAST  = 'ﾝ';              // U+FF9D
+ 
+    //// Bounds for Katakana
+    public static final char HANKAKU_KATAKANA_FIRST = 'ｦ';              // U+FF66
+    public static final char HANKAKU_KATAKANA_LAST  = 'ﾝ';              // U+FF9D
+
 
     public static final char ZENKAKU_KATAKANA_FIRST = 'ァ';             // U+30A1
     public static final char ZENKAKU_KATAKANA_LAST_FOR_CONVERT  = 'ン'; // U+30F3
