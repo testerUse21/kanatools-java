@@ -8,4 +8,7 @@ public abstract class KanaAppraiserTester
         // Test instantiation
         KanaAppraiser kana_evaluator_object = new KanaAppraiser();
     }
+     public KanaAppraiserTester1()
+     {
+    }
 }
