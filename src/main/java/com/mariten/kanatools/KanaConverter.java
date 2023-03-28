@@ -51,8 +51,8 @@ public class KanaConverter
         LETTER_OP_CODE_LOOKUP.put('S', OP_HAN_SPACE_TO_ZEN_SPACE);
         LETTER_OP_CODE_LOOKUP.put('s', OP_ZEN_SPACE_TO_HAN_SPACE);
     System.out.println();
-         System.out.println();
-         System.out.println();
+//          System.out.println();
+//          System.out.println();
     }
 
 
