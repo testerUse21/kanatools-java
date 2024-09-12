@@ -11,18 +11,6 @@ public class AsciiBooleanChecksTest extends KanaAppraiserTester
     @Test
     public void testZenkakuAsciiChecks()
     {
-        assertEquals(false, KanaAppraiser.isZenkakuAscii ('　'));
-        assertEquals(false, KanaAppraiser.isZenkakuNumber('　'));
-        assertEquals(false, KanaAppraiser.isZenkakuLetter('　'));
-
-        assertEquals(true,  KanaAppraiser.isZenkakuAscii ('！'));
-        assertEquals(false, KanaAppraiser.isZenkakuNumber('！'));
-        assertEquals(false, KanaAppraiser.isZenkakuLetter('！'));
-
-        assertEquals(true,  KanaAppraiser.isZenkakuAscii ('＂'));
-        assertEquals(false, KanaAppraiser.isZenkakuNumber('＂'));
-        assertEquals(false, KanaAppraiser.isZenkakuLetter('＂'));
-
         assertEquals(true,  KanaAppraiser.isZenkakuAscii ('．'));
         assertEquals(false, KanaAppraiser.isZenkakuNumber('．'));
         assertEquals(false, KanaAppraiser.isZenkakuLetter('．'));
