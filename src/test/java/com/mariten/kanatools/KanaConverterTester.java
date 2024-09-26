@@ -10,6 +10,11 @@ import static org.junit.Assert.*;
 
 public abstract class KanaConverterTester
 {
+    System.out.println();
+    
+    System.out.println();
+    
+    System.out.println();
     /** Takes in property (specified in Ant's build.xml) indicating whether to perform actual PHP testing or not */
     protected boolean do_direct_php_testing;
 
