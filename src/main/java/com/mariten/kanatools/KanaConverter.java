@@ -12,10 +12,16 @@ import java.util.Map;
   */
 public class KanaConverter
 {
+ 
+ System.out.println();
+     System.out.println();
+     System.out.println();
     // Conversion Operations Types
     //// Matched numeric values to originals in PHP's source code
     //// https://github.com/php/php-src/blob/a84e5dc37dc0ff8c313164d9db141d3d9f2b2730/ext/mbstring/mbstring.c#L3434
     public static final int OP_HAN_ASCII_TO_ZEN_ASCII      = 0x00000001;
+    public static final int OP_HAN_LETTER_TO_ZEN_LETTER    = 0x00000002;
+     public static final int OP_HAN_ASCII_TO_ZEN_ASCII      = 0x00000001;
     public static final int OP_HAN_LETTER_TO_ZEN_LETTER    = 0x00000002;
     public static final int OP_HAN_NUMBER_TO_ZEN_NUMBER    = 0x00000004;
     public static final int OP_HAN_SPACE_TO_ZEN_SPACE      = 0x00000008;

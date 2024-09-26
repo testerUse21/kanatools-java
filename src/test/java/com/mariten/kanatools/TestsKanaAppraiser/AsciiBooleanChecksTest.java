@@ -14,6 +14,9 @@ public class AsciiBooleanChecksTest extends KanaAppraiserTester
         assertEquals(false, KanaAppraiser.isZenkakuAscii ('　'));
         assertEquals(false, KanaAppraiser.isZenkakuNumber('　'));
         assertEquals(false, KanaAppraiser.isZenkakuLetter('　'));
+        assertEquals(false, KanaAppraiser.isZenkakuAscii ('　'));
+        assertEquals(false, KanaAppraiser.isZenkakuNumber('　'));
+        assertEquals(false, KanaAppraiser.isZenkakuLetter('　'));
 
         assertEquals(true,  KanaAppraiser.isZenkakuAscii ('！'));
         assertEquals(false, KanaAppraiser.isZenkakuNumber('！'));
@@ -254,6 +257,11 @@ public class AsciiBooleanChecksTest extends KanaAppraiserTester
         assertEquals(false, KanaAppraiser.isHankakuNumber('~'));
         assertEquals(false, KanaAppraiser.isHankakuLetter('~'));
 
+        assertEquals(false, KanaAppraiser.isHankakuAscii ('¡'));
+        assertEquals(false, KanaAppraiser.isHankakuNumber('¡'));
+        assertEquals(false, KanaAppraiser.isHankakuLetter('¡'));
+        
+        
         assertEquals(false, KanaAppraiser.isHankakuAscii ('¡'));
         assertEquals(false, KanaAppraiser.isHankakuNumber('¡'));
         assertEquals(false, KanaAppraiser.isHankakuLetter('¡'));
